@@ -1,10 +1,12 @@
-# Digital Pulp - PHP Pre-commit Hooks
+# PHP Pre-commit Hooks
+
+Forked from https://github.com/digitalpulp/pre-commit-php which is forked from https://github.com/hootsuite/pre-commit-php.
 
 Pre-commit scripts appropriate for *any* PHP project. These hooks are made as custom plugins under the [pre-commit](http://pre-commit.com/#new-hooks) git hook framework.
 
 # Setup
 
-See (Adding pre-commit plugins to your project)[https://pre-commit.com/#adding-pre-commit-plugins-to-your-project]
+See [Adding pre-commit plugins to your project](https://pre-commit.com/#adding-pre-commit-plugins-to-your-project)
 
 # Supported Hooks
 
@@ -108,9 +110,7 @@ The tool will fail a build when it has made changes to the staged files. This al
 
 ## php-stan
 
-Adds the (PHPStan)[https://phpstan.org/] tool.
-
-
+Adds the [PHPStan](https://phpstan.org/) tool.
 
 ```yaml
 -- repo: https://github.com/digitalpulp/pre-commit-php.git
