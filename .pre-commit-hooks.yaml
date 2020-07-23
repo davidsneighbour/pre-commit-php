@@ -47,3 +47,10 @@
   entry: pre_commit_hooks/php-stan.sh
   language: script
   files: \.php$
+
+- id: php-doc-check
+  name: PHP-Doc-Check
+  description: Run PHP Doc Check against all staged PHP files.
+  entry: pre_commit_hooks/php-doc-check.sh
+  language: script
+  files: \.php$
